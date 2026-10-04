@@ -10,7 +10,7 @@ fn main()
     let mut name = String::new();
         io::stdin()
         .read_line(&mut name)
-        .expect("Incorrect input");
+        .expect("Processing failed!");
     println!("Your name is: {}", name);
 
     // Input age here
@@ -18,7 +18,7 @@ fn main()
     let mut age = String::new();
         io::stdin()
         .read_line(&mut age)
-        .expect("Failed to read input");
+        .expect("Processing Failed!");
     let age:i32 = age
     .trim()
     .parse()
