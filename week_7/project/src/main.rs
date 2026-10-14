@@ -1,5 +1,4 @@
 // Project: The Shape Calculator
-// MTH 101 - calculates area or volume of different shapes
 
 use std::io;
 
@@ -29,7 +28,7 @@ fn rhombus_area() -> f64 {
     0.5 * diagonal1 * diagonal2
 }
 
-// Parallelogram area = base * altitude
+// Parallelogram area = base * height
 fn parallelogram_area() -> f64 {
     let base = read_number("Enter the base:");
     let altitude = read_number("Enter the altitude:");
